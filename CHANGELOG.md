@@ -34,3 +34,10 @@ The format is simple: date + short description of what changed.
 - Created `README.md` with project purpose, structure, and startup instructions.
 - Created `specs.md` describing features, use cases, and endpoints.
 - Created `CHANGELOG.md` to track the history of changes.
+
+
+## 2025-11-24 – Added NUnit tests
+
+- Created `Application.Tests` project using NUnit.
+- Added `FakeTodoRepository` for testing.
+- Implemented unit test for `CreateTodoHandler`.
