@@ -86,8 +86,8 @@ public class AppDbContext : DbContext
 
         // Store BookingStatus as int
         modelBuilder.Entity<Booking>()
-            .Property(b => b.Status)
-            .HasConversion<int>();
+            .Property(b => b.Status);
+           
 
         //decimal for services
         modelBuilder.Entity<Service>()
