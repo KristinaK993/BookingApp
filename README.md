@@ -137,8 +137,5 @@ Built to be:
 
 ---
 
-## 🔮 Future Improvements
-- Authentication & authorization (JWT)  
-- Logging (Serilog)    
-- Pagination & advanced filtering  
+## 🔮 Future Improvements  
 - Background tasks (email notifications)  
